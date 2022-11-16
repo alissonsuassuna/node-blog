@@ -1,0 +1,15 @@
+<%- include('partials/header'); -%>
+    
+    <h1>Publicar</h1>
+
+    <form accept="/publicar" method="post">
+        <div class="mb-3">
+            <label>Título do post</label>
+            <input class="form-control" type="text"name="postTitle" />
+            <label>Artigo</label>
+            <textarea class="form-control" name="postBody" rows="5"cols="30"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Publicar post</button>
+    </form>
+    
+<%- include('partials/footer'); -%>
